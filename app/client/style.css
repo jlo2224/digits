@@ -35,6 +35,10 @@ body .navbar {
   --bs-navbar-bg-color: var(--matr-navbar-bg-rgb);
   background-color: var(--matr-navbar-bg-rgb);
 }
+
+.navbar a.nav-link.active {
+  color: var(--matr-navbar-highlight-text);
+}
 /* Set the alert background on the signin and signup pages. */
 #signin-page .alert-light, #signup-page .alert-light {
   --bs-alert-bg: var(--matr-navbar-bg);
