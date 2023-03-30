@@ -9,5 +9,26 @@
     { "name": "Bicycle", "quantity": 2, "owner": "john@foo.com", "condition": "poor" },
     { "name": "Banana", "quantity": 2, "owner": "admin@foo.com", "condition": "good" },
     { "name": "Boogie Board", "quantity": 2, "owner": "admin@foo.com", "condition": "excellent" }
+  ],
+
+  "defaultContacts": [
+    {
+      "firstName": "Philip", "lastName": "Johnson", "address": "POST 307, University of Hawaii",
+      "image": "https://github.com/philipmjohnson.png",
+      "description": "Sample sample",
+      "owner": "john@foo.com"
+    },
+    {
+      "firstName": "Henri", "lastName": "Casanova", "address": "POST 307, University of Hawaii",
+      "image": "https://avatars0.githubusercontent.com/u/7494478?s=460&v=4",
+      "description": "Jared",
+      "owner": "john@foo.com"
+    },
+    {
+      "firstName": "Kim", "lastName": "Binsted", "address": "POST 307, University of Hawaii",
+      "image": "https://www.ics.hawaii.edu/wp-content/uploads/2013/08/kim_binsted-square-300x300.jpg",
+      "description": "Hiiiii",
+      "owner": "admin@foo.com"
+    }
   ]
 }
