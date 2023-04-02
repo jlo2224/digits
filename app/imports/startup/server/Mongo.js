@@ -24,7 +24,7 @@ const addContact = (contact) => {
 };
 
 // Initialize the StuffsCollection if empty.
-if (Stuffs.collection.find().count() === 0) {
+if (Contacts.collection.find().count() === 0) {
   if (Meteor.settings.defaultContacts) {
     console.log('Creating default data.');
     Meteor.settings.defaultContacts.forEach(contact => addContact(contact));
